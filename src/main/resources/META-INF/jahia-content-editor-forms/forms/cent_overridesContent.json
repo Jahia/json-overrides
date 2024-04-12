@@ -1,0 +1,56 @@
+{
+  "nodeType": "cent:overridesContent",
+  "priority": 3.0,
+  "showAdvancedMode": false,
+  "hasPreview": false,
+  "sections": [
+    {
+      "name": "content",
+      "labelKey": "label.engineTab.content",
+      "requiredPermission": "viewContentTab",
+      "fieldSets": [
+        {
+          "name": "<main>",
+          "rank": "2.0",
+          "fields": [
+            {
+              "rank": 1.0,
+              "name": "text"
+            },
+            {
+              "rank": 1.1,
+              "name": "image"
+            },
+            {
+              "rank": 5.0,
+              "name": "jcr:title",
+              "declaringNodeType": "mix:title",
+              "labelKey": "jcontent-test-module:label.textoverride",
+              "descriptionKey": "label.information"
+            },
+            {
+              "name": "ce:systemName",
+              "hide": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "visibility",
+      "hide": true
+    },
+    {
+      "name": "seo",
+      "hide": true
+    },
+    {
+      "name": "layout",
+      "hide": true
+    },
+    {
+      "name": "options",
+      "hide": true
+    }
+  ]
+}

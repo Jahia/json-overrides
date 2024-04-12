@@ -1,0 +1,9 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+<cent = 'http://www.jahia.org/ce/nt/1.0'>
+<cemix = 'http://www.foo.org/cd/mix/1.0'>
+
+[cent:overridesContent] > jnt:content, jmix:editorialContent, mix:title, jmix:structuredContent
+ - text (string, richtext) mandatory i18n
+ - image (weakreference, picker[type=image]) indexed=no

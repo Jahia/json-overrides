@@ -1,0 +1,62 @@
+{
+  "nodeType": "luxe:estate",
+  "priority": 3.0,
+  "showAdvancedMode": false,
+  "hasPreview": true,
+  "sections": [
+    {
+      "name": "content",
+      "labelKey": "label.engineTab.content",
+      "requiredPermission": "viewContentTab",
+      "fieldSets": [
+        {
+          "name": "<main>",
+          "rank": "2.0",
+          "fields": [
+            {
+              "rank": 1.0,
+              "name": "title"
+            },
+            {
+              "rank": 2.0,
+              "name": "description"
+            },
+            {
+              "rank": 3.0,
+              "name": "images"
+            },
+            {
+              "rank": 4.0,
+              "name": "price"
+            },
+            {
+              "rank": 1.1,
+              "name": "type"
+            },
+            {
+              "rank": 1.2,
+              "name": "options",
+              "selectorType": "CheckboxChoiceList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "visibility",
+      "hide": true
+    },
+    {
+      "name": "seo",
+      "hide": true
+    },
+    {
+      "name": "layout",
+      "hide": true
+    },
+    {
+      "name": "options",
+      "hide": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "nodeType": "cent:contentRetrievalCETest",
+  "priority": 2.0,
+  "sections": [
+    {
+      "name": "content",
+      "fieldSets": [
+        {
+          "name": "<main>",
+          "rank": "2.0",
+          "fields": [
+            {
+              "name": "j:invalidLanguagesHiddenTest",
+              "declaringNodeType": "cent:contentRetrievalCETest",
+              "label": "Do not display in",
+              "multiple": true,
+              "hide": false
+            },
+            {
+              "rank": 5.0,
+              "name": "jcr:title",
+              "declaringNodeType": "mix:title",
+              "labelKey": "jcontent-test-module:label.textoverride",
+              "descriptionKey": "label.information"
+            },
+            {
+              "name": "ce:systemName",
+              "label": "Customized system name",
+              "description": "Customized description"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
