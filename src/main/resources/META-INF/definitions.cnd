@@ -7,3 +7,7 @@
 [cent:overridesContent] > jnt:content, jmix:editorialContent, mix:title, jmix:structuredContent
  - text (string, richtext) mandatory i18n
  - image (weakreference, picker[type=image]) indexed=no
+
+[cemix:myMixinToggle] mixin
+extends = cent:overridesContent
+- mixinToggleField (string)
