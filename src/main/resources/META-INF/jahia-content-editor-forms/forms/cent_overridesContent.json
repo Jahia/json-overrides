@@ -31,8 +31,19 @@
             {
               "name": "ce:systemName",
               "hide": true
+            },
+            {
+              "rank": 6.0,
+              "name": "mixinToggleField",
+              "declaringNodeType": "cemix:myMixinToggle"
             }
           ]
+        },
+        {
+          "name": "cemix:myMixinToggle",
+          "isAlwaysActivated": true,
+          "alwaysPresent": true,
+          "hide": true
         }
       ]
     },
